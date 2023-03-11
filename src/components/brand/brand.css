@@ -1,0 +1,38 @@
+.brand__heading {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.brand__description {
+  font-size: 10em;
+  margin-top: 0.5em;
+}
+
+.gpt3__brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.brand__heading {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.brand__description {
+  font-size: 1.6em;
+  margin-top: 2rem;
+  margin-bottom: auto;
+}
+
+.gpt3__brand div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

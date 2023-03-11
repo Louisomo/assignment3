@@ -1,0 +1,98 @@
+/* Set the viewport */
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+/* Use relative units */
+* {
+  box-sizing: border-box;
+}
+
+.gpt3__header {
+  display: flex;
+  flex-direction: row;
+  background-color: #05080f;
+  width: 100%;
+}
+
+.gpt3__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #ffffff;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.gpt3__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 4em;
+  line-height: 1.5em;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+
+.gpt3__header-content p {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 1.4em;
+  color: #ffffff;
+  margin-top: 1.5em;
+}
+
+.gpt3__header-title {
+  margin-bottom: 1.5em;
+}
+
+.gpt3__header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt3__header-image img {
+  margin: 1.5em;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 1050px) {
+  .gpt3__header {
+    flex-direction: column;
+  }
+
+  .gpt3__header-content {
+    margin: 0 0 3em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gpt3__header-content h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .gpt3__header-content h1 {
+    font-size: 2.5em;
+    line-height: 1.2em;
+  }
+
+  .gpt3__header-content p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+
+  .gpt3__header-image img {
+    margin: 1.5em;
+    max-width: 80%;
+    height: auto;
+  }
+}
