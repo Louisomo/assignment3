@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/assignment3/static/css/main.380ac808.css",
+    "main.js": "/assignment3/static/js/main.876ce30e.js",
+    "static/media/image4.png": "/assignment3/static/media/image4.d618d2bd6bc8ca2d9d0a.png",
+    "static/media/image1.png": "/assignment3/static/media/image1.449155e0244c4d7ee464.png",
+    "static/media/image8.png": "/assignment3/static/media/image8.72df5e46f0e85a2ac926.png",
+    "static/media/image6.png": "/assignment3/static/media/image6.686634b8c8eb0ec5b3d1.png",
+    "static/media/image2.png": "/assignment3/static/media/image2.d4011fabee9da499b753.png",
+    "static/media/image3.png": "/assignment3/static/media/image3.dbdffc1d2852f628ee9c.png",
+    "static/media/image5.png": "/assignment3/static/media/image5.54bb57ace130670c6f1c.png",
+    "static/media/image7.png": "/assignment3/static/media/image7.54bb57ace130670c6f1c.png",
+    "static/media/frame1.png": "/assignment3/static/media/frame1.90d59806a370baeee857.png",
+    "static/media/mobile.png": "/assignment3/static/media/mobile.dc6917f0e5fd0a457f43.png",
+    "static/media/frame.png": "/assignment3/static/media/frame.cb15c901ab7c3d06f47c.png",
+    "index.html": "/assignment3/index.html",
+    "main.380ac808.css.map": "/assignment3/static/css/main.380ac808.css.map",
+    "main.876ce30e.js.map": "/assignment3/static/js/main.876ce30e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.380ac808.css",
+    "static/js/main.876ce30e.js"
+  ]
+}
